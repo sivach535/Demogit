@@ -1,0 +1,51 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  name:
+    type: string
+    maxLength: 2000
+    required: true
+  sfdcId:
+    type: number
+    required: true
+  acctStatus:
+    type: string
+    maxLength: 10
+    required: true
+  timeZone:
+    type: string
+    maxLength: 2000
+    required: true
+  address1:
+    type: string
+    maxLength: 2000
+    required: true
+  address2:
+    type: string
+    maxLength: 2000
+    required: false
+  address3:
+    type: string
+    maxLength: 2000
+    required: false  
+  city:
+    type: string
+    maxLength: 2000
+    required: true
+  state:
+    type: string
+    required: true
+    maxLength: 2000  
+  postalCode:
+    type: string
+    maxLength: 2000
+    required: true
+  country:
+    type: string
+    maxLength: 2000
+    required: true
+  activeContracts:
+    type: boolean
+    required: true
+    
+    

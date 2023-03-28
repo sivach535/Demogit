@@ -1,0 +1,14 @@
+{
+	"name": "Underwriters Laboratories",
+	"sfdcId": 63857,
+	"acctStatus": "Active",
+	"timeZone": "America/New_York",
+	"address1": "12 Laboratories Dr",
+	"address2": "12 Laboratories Dr Po Box 13995",
+	"address3": "",
+	"city": "DURHAM",
+	"state": "NC",
+	"postalCode": "277009-0163",
+	"country": "US",
+	"activeContracts": true
+}

@@ -1,0 +1,33 @@
+#%RAML 1.0
+title: sa1001-OSVC System Api Interacting with OSVC System
+version: v1
+description: This System Api which will interact with  OSVC System using HTTP Protocol.
+mediaType: 
+- application/json
+protocols:
+  - HTTP
+
+#change log
+#created by siva choda on 25-Mar-2023 added post /organizations Resourse #CIGNIS-1
+
+resourceTypes:
+    organizationsResourceType : !include libraries/ResourceType/organizations.raml  
+
+traits:
+  clientCridentials: !include libraries/traits/clientCridentials.raml
+          
+types:
+  postorganizationRequest: !include libraries/dataTypes/request/postorganizationRequestdataType.raml
+  postorganizationResponse: !include libraries/dataTypes/responses/postorganizationResponsedataType.raml
+
+/organizations:
+  type:
+    organizationsResourceType
+  
+              
+          
+
+                    
+
+          
+  

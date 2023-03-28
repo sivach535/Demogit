@@ -1,0 +1,15 @@
+#%RAML 1.0 ResourceType
+post:
+    description: this is a post method create organisation data to OSVC System
+    is:
+      - clientCridentials
+    body:
+      application/json:
+        type: postorganizationRequest
+        example: !include ../../examples/requests/organizationsPostRequest.json 
+    responses:
+      201:
+        body:
+          application/json:
+            type: postorganizationResponse
+            example: !include ../../examples/responses/postOrganizationResponse.json

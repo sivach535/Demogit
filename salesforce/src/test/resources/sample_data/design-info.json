@@ -1,0 +1,10 @@
+{
+  "sampleData": {
+    "24554003-9ed7-449b-bf0e-5bb78ece3854": {
+      "payload": "sample_data/list_json.json"
+    },
+    "2e6466e6-86c4-4d58-a9be-3d8036efe690": {
+      "payload": "sample_data/list_java.dwl"
+    }
+  }
+}
